@@ -7,27 +7,22 @@ This project explores various natural language processing (NLP) and machine lear
 ## Installation
 you can install Juypter Lab into your system, or you can simply use Google Collab (with Collab you do not have to manually install the libraries)
 
-the libraries are:
+## Libraries Used
 
-nltk and its submodules (nltk.corpus, nltk.tokenize) - Natural Language Toolkit.
-pandas - Data manipulation and analysis library.
-re - Regular expression operations.
-sklearn with specific submodules:
-sklearn.ensemble
-sklearn.linear_model
-sklearn.metrics
-sklearn.model_selection
-sklearn.naive_bayes
-sklearn.neighbors
-sklearn.svm - These are various components of the scikit-learn library for machine learning.
+This project utilizes several Python libraries for natural language processing and machine learning tasks. The key libraries include:
 
-time - Time access and conversions.
-torch and torchtext.vocab - PyTorch and its vocabulary module, used in deep learning and NLP.
+- **NLTK (Natural Language Toolkit)**: Used for working with human language data (`nltk.corpus`, `nltk.tokenize`).
+- **Pandas**: Essential for data manipulation and analysis.
+- **Scikit-learn (Sklearn)**: A machine learning library used in various components like `ensemble`, `linear_model`, `metrics`, `model_selection`, `naive_bayes`, `neighbors`, `svm`.
+- **Regular Expressions (re)**: For string searching and manipulation.
+- **Time**: For time access and conversions.
+- **PyTorch (Torch)**: A machine learning library used for deep learning applications (`torchtext.vocab` for NLP).
+
 
 ## Abstract
 Efficient data preparation is crucial in machine learning applications, particularly in natural language processing (NLP). This project focuses on comprehensive data curation through lowercasing, punctuation removal, tokenization, and stop-word elimination to enhance the quality of reviews. The subsequent analysis delves into the implementation of Bag-of-Words, N-Grams, RNN, and TF-IDF as feature extraction methods, with a detailed code overview. The comparison reveals that TF-IDF and Bag-of-Words emerge as the most effective techniques based on accuracy and time. The study concludes with the remaining work outlined, emphasizing code implementation, validation, testing, result comparison, and the final report and presentation.
 
-##Sample Results
+## Sample Results
 I will be showcasing a sample result of Bag of Words:
 
 Model: Logistic Regression
