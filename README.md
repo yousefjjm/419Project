@@ -25,6 +25,6 @@ Efficient data preparation is crucial in machine learning applications, particul
 ## Sample Results
 I will be showcasing a sample result of TF-IDF:
 
-![TF-IDF](images/example.png)
+![TF-IDF](image.png)
 
 
